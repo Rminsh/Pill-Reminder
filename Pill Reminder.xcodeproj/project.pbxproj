@@ -7,25 +7,37 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		C60AD35A237B4B570068BFDE /* VCHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = C60AD359237B4B570068BFDE /* VCHelper.swift */; };
 		C661B7BA237B098600FAD568 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C661B7B9237B098600FAD568 /* AppDelegate.swift */; };
-		C661B7BC237B098600FAD568 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C661B7BB237B098600FAD568 /* SceneDelegate.swift */; };
-		C661B7BE237B098600FAD568 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C661B7BD237B098600FAD568 /* ViewController.swift */; };
 		C661B7C1237B098600FAD568 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C661B7BF237B098600FAD568 /* Main.storyboard */; };
 		C661B7C4237B098600FAD568 /* Pill_Reminder.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = C661B7C2237B098600FAD568 /* Pill_Reminder.xcdatamodeld */; };
 		C661B7C6237B098800FAD568 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C661B7C5237B098800FAD568 /* Assets.xcassets */; };
 		C661B7C9237B098800FAD568 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C661B7C7237B098800FAD568 /* LaunchScreen.storyboard */; };
+		C661B7E9237B33B300FAD568 /* MainVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = C661B7E8237B33B300FAD568 /* MainVC.swift */; };
+		C661B7EB237B33C000FAD568 /* AddPillVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = C661B7EA237B33C000FAD568 /* AddPillVC.swift */; };
+		C661B7EF237B347800FAD568 /* CardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C661B7EC237B347800FAD568 /* CardView.swift */; };
+		C661B7F0237B347800FAD568 /* PaddingLabel.swift in Sources */ = {isa = PBXBuildFile; fileRef = C661B7ED237B347800FAD568 /* PaddingLabel.swift */; };
+		C661B7F1237B347800FAD568 /* RoundButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = C661B7EE237B347800FAD568 /* RoundButton.swift */; };
+		C661B7F3237B35C600FAD568 /* ColorCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = C661B7F2237B35C600FAD568 /* ColorCell.swift */; };
+		C661B7F5237B3BD300FAD568 /* PillCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = C661B7F4237B3BD300FAD568 /* PillCell.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		C60AD359237B4B570068BFDE /* VCHelper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VCHelper.swift; sourceTree = "<group>"; };
 		C661B7B6237B098600FAD568 /* Pill Reminder.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Pill Reminder.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		C661B7B9237B098600FAD568 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		C661B7BB237B098600FAD568 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		C661B7BD237B098600FAD568 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		C661B7C0237B098600FAD568 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		C661B7C3237B098600FAD568 /* Pill_Reminder.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Pill_Reminder.xcdatamodel; sourceTree = "<group>"; };
 		C661B7C5237B098800FAD568 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		C661B7C8237B098800FAD568 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		C661B7CA237B098800FAD568 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C661B7E8237B33B300FAD568 /* MainVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainVC.swift; sourceTree = "<group>"; };
+		C661B7EA237B33C000FAD568 /* AddPillVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddPillVC.swift; sourceTree = "<group>"; };
+		C661B7EC237B347800FAD568 /* CardView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CardView.swift; sourceTree = "<group>"; };
+		C661B7ED237B347800FAD568 /* PaddingLabel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PaddingLabel.swift; sourceTree = "<group>"; };
+		C661B7EE237B347800FAD568 /* RoundButton.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RoundButton.swift; sourceTree = "<group>"; };
+		C661B7F2237B35C600FAD568 /* ColorCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ColorCell.swift; sourceTree = "<group>"; };
+		C661B7F4237B3BD300FAD568 /* PillCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PillCell.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,9 +70,10 @@
 		C661B7B8237B098600FAD568 /* Pill Reminder */ = {
 			isa = PBXGroup;
 			children = (
+				C661B7E7237B338200FAD568 /* Controller */,
+				C661B7E6237B337600FAD568 /* Library */,
+				C661B7D0237B16EB00FAD568 /* View */,
 				C661B7B9237B098600FAD568 /* AppDelegate.swift */,
-				C661B7BB237B098600FAD568 /* SceneDelegate.swift */,
-				C661B7BD237B098600FAD568 /* ViewController.swift */,
 				C661B7BF237B098600FAD568 /* Main.storyboard */,
 				C661B7C5237B098800FAD568 /* Assets.xcassets */,
 				C661B7C7237B098800FAD568 /* LaunchScreen.storyboard */,
@@ -68,6 +81,35 @@
 				C661B7C2237B098600FAD568 /* Pill_Reminder.xcdatamodeld */,
 			);
 			path = "Pill Reminder";
+			sourceTree = "<group>";
+		};
+		C661B7D0237B16EB00FAD568 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				C661B7F2237B35C600FAD568 /* ColorCell.swift */,
+				C661B7F4237B3BD300FAD568 /* PillCell.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		C661B7E6237B337600FAD568 /* Library */ = {
+			isa = PBXGroup;
+			children = (
+				C661B7EC237B347800FAD568 /* CardView.swift */,
+				C661B7ED237B347800FAD568 /* PaddingLabel.swift */,
+				C661B7EE237B347800FAD568 /* RoundButton.swift */,
+				C60AD359237B4B570068BFDE /* VCHelper.swift */,
+			);
+			path = Library;
+			sourceTree = "<group>";
+		};
+		C661B7E7237B338200FAD568 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				C661B7E8237B33B300FAD568 /* MainVC.swift */,
+				C661B7EA237B33C000FAD568 /* AddPillVC.swift */,
+			);
+			path = Controller;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -141,10 +183,16 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C661B7F0237B347800FAD568 /* PaddingLabel.swift in Sources */,
+				C661B7F3237B35C600FAD568 /* ColorCell.swift in Sources */,
 				C661B7C4237B098600FAD568 /* Pill_Reminder.xcdatamodeld in Sources */,
-				C661B7BE237B098600FAD568 /* ViewController.swift in Sources */,
+				C661B7F1237B347800FAD568 /* RoundButton.swift in Sources */,
+				C661B7F5237B3BD300FAD568 /* PillCell.swift in Sources */,
+				C661B7EB237B33C000FAD568 /* AddPillVC.swift in Sources */,
+				C60AD35A237B4B570068BFDE /* VCHelper.swift in Sources */,
+				C661B7E9237B33B300FAD568 /* MainVC.swift in Sources */,
 				C661B7BA237B098600FAD568 /* AppDelegate.swift in Sources */,
-				C661B7BC237B098600FAD568 /* SceneDelegate.swift in Sources */,
+				C661B7EF237B347800FAD568 /* CardView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -291,14 +339,15 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = L4C26EK8EJ;
 				INFOPLIST_FILE = "Pill Reminder/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = "shalchian.com.Pill-Reminder";
+				PRODUCT_BUNDLE_IDENTIFIER = shalchian.com.PillReminder;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
@@ -309,14 +358,15 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = L4C26EK8EJ;
 				INFOPLIST_FILE = "Pill Reminder/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = "shalchian.com.Pill-Reminder";
+				PRODUCT_BUNDLE_IDENTIFIER = shalchian.com.PillReminder;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
